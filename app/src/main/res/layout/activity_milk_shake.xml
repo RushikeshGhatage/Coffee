@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.example.rushikesh.coffee.milk_shake">
+
+    <TextView
+        android:id="@+id/milk_shakes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="Milk Shakes"
+        android:textAllCaps="true"
+        android:textSize="30sp" />
+    <CheckBox
+        android:id="@+id/chocolate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/milk_shakes"
+        android:layout_marginLeft="30dp"
+        android:padding="15dp"
+        android:text="Chocolate"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/butterscotch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chocolate"
+        android:layout_marginLeft="30dp"
+        android:padding="15dp"
+        android:text=" Butterscotch"
+        android:textSize="20sp" />
+    <CheckBox
+        android:id="@+id/Vannila"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/butterscotch"
+        android:layout_marginLeft="30dp"
+        android:padding="15dp"
+        android:text="Vannila"
+        android:textSize="20sp" />
+    <CheckBox
+        android:id="@+id/strawberry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Vannila"
+        android:layout_marginLeft="30dp"
+        android:padding="15dp"
+        android:text="Strawberry"
+        android:textSize="20sp" />
+    <CheckBox
+        android:id="@+id/mango"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/strawberry"
+        android:layout_marginLeft="30dp"
+        android:padding="15dp"
+        android:text="Mango"
+        android:textSize="20sp" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_navigate_next_black_36dp"
+        android:layout_below="@id/mango"
+        android:layout_margin="30dp"
+        android:layout_centerInParent="true"
+        android:onClick="Next" />
+</RelativeLayout>

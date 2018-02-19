@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Crush Cafe</string>
+    <string name="app_icon">app_icon</string>
+    <string name="cafe_crunch">Cafe Crunch</string>
+    <string name="menu">Menu</string>
+    <string name="coffee">Coffee</string>
+    <string name="tea">Tea</string>
+    <string name="milk_shakes">Milk Shakes</string>
+    <string name="ice_cream">Ice Cream</string>
+    <string name="next">next</string>
+    <string name="enter_your_name">Enter your Name</string>
+    <string name="enter_your_email_address">Enter your Email Address</string>
+    <string name="name_and_email_address">Name and Email Address</string>
+    <string name="order_summary">Order Summary</string>
+</resources>

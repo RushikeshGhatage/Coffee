@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.example.rushikesh.coffee.Coffee">
+
+    <TextView
+        android:id="@+id/coffee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="Coffee"
+        android:textAllCaps="true"
+        android:textSize="30sp" />
+
+    <CheckBox
+        android:id="@+id/Cappuccino"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/coffee"
+        android:layout_marginLeft="30dp"
+        android:padding="15dp"
+        android:text="Cappuccino"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/Macchiato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Cappuccino"
+        android:layout_marginLeft="30dp"
+        android:padding="15dp"
+        android:text="Macchiato"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/Espresso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Macchiato"
+        android:layout_marginLeft="30dp"
+        android:padding="15dp"
+        android:text="Espresso"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/Latte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Espresso"
+        android:layout_marginLeft="30dp"
+        android:padding="15dp"
+        android:text="Latte"
+        android:textSize="20sp" />
+    <CheckBox
+        android:id="@+id/Ristretto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Latte"
+        android:layout_marginLeft="30dp"
+        android:padding="15dp"
+        android:text="Ristretto"
+        android:textSize="20sp"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_navigate_next_black_36dp"
+        android:layout_below="@id/Ristretto"
+        android:layout_margin="30dp"
+        android:layout_centerInParent="true"
+        android:onClick="Next"
+        />
+</RelativeLayout>

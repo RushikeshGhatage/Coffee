@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.example.rushikesh.coffee.Tea">
+
+    <TextView
+        android:id="@+id/tea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="Tea"
+        android:textAllCaps="true"
+        android:textSize="30sp" />
+    <CheckBox
+        android:id="@+id/White_tea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tea"
+        android:layout_marginLeft="30dp"
+        android:padding="15dp"
+        android:text="White Tea"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/Black_tea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/White_tea"
+        android:layout_marginLeft="30dp"
+        android:padding="15dp"
+        android:text="Black Tea"
+        android:textSize="20sp" />
+    <CheckBox
+        android:id="@+id/green_tea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Black_tea"
+        android:layout_marginLeft="30dp"
+        android:padding="15dp"
+        android:text="Green Tea"
+        android:textSize="20sp" />
+    <CheckBox
+        android:id="@+id/Herbal_tea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/green_tea"
+        android:layout_marginLeft="30dp"
+        android:padding="15dp"
+        android:text="Herbal Tea"
+        android:textSize="20sp" />
+    <CheckBox
+        android:id="@+id/Special_tea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Herbal_tea"
+        android:layout_marginLeft="30dp"
+        android:padding="15dp"
+        android:text="Spacial Tea"
+        android:textSize="20sp" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_navigate_next_black_36dp"
+        android:layout_below="@id/Special_tea"
+        android:layout_margin="30dp"
+        android:layout_centerInParent="true"
+        android:onClick="Next" />
+</RelativeLayout>
